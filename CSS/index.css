@@ -9,7 +9,7 @@
 iframe {
   width: 100%;
   height: 600px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   padding-left: 60px;
   padding-right: 60px;
@@ -43,9 +43,9 @@ iframe {
 }
 .other-links ul {
   display: flex;
-  margin-top: 5px;
   margin-left: 60px;
   margin-left: 60px;
+  /*margin-bottom: 30px;*/
 }
 .other-links li {
   margin-left: auto;
@@ -62,6 +62,9 @@ iframe {
   color: #3A322F;
   text-align: center;
   border-radius: 24px;
+}
+.footer {
+  margin-top: 80px;
 }
 
 
@@ -110,8 +113,4 @@ iframe {
     display: block;
     margin-left: 0;
   }
-  .footer .site-menu {
-    height: auto;
-  }
-
 }
